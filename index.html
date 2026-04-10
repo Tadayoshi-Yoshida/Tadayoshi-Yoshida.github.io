@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Web Designer & Coder</title>
+    <meta name="description" content="Webデザイナー/コーダーのポートフォリオサイトです。デザインからコーディングまで一貫して対応します。">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">Tadayoshi Yoshida<br>My Portfolio</div>
+            <button class="hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="js-nav" class="global-nav">
+                <ul>
+                    <li><a href="#works">Pick Up Works</a></li>
+                    <li><a href="#other">Other Works</a></li>
+                    <li><a href="#about">About & Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-inner">
+                <h1 class="hero-title">
+                    <span class="text-wrap">デザインから</span><span class="text-wrap">コーディングまで。</span><br>
+                    <span class="highlight text-wrap">想いを形にする</span><span class="text-wrap">Web制作。</span>
+                </h1>
+                <p class="hero-text">
+                    Web Designer / Coder<br>
+                    見る人に優しく、使う人に分かりやすいデザインを心がけています。<br>
+                    実務経験をベースに、最新のツールも取り入れながら丁寧な制作を行います。
+                </p>
+            </div>
+        </section>
+
+        <!-- Pick Up Works Section -->
+        <section id="works" class="section pickup-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Pick Up Works</h2>
+                    <p class="section-subtitle">実務レベルの課題解決とディレクション実績</p>
+                </div>
+
+                <div class="works-list">
+                    <!-- Work 1: 東柏太鼓教室 -->
+                    <article class="work-item">
+                        <div class="work-img">
+                            <div class="img-placeholder">
+                                <img src="img/work01.png" alt="海老名東柏太鼓 PCモックアップ">
+                            </div>
+                        </div>
+                        <div class="work-content">
+                            <span class="badge">01. 個人受注案件</span>
+                            <h3 class="work-title">東柏太鼓教室 公式Webサイト 新規制作</h3>
+                            <p class="work-desc">
+                                旧サイト閉鎖に伴う、公式Webサイトのゼロからの再構築。前職の経験を活かし、クライアントと「現在発信すべき情報は何か」を一から整理する要件定義から参画しました。幅広いターゲット層に向けた迷わせない情報設計と、手戻りを防ぐ綿密な進行管理を徹底。さらに「和」を演出するマイクロインタラクションを実装し、教室のブランディングに貢献しました。<br>
+                                <span class="work-skil">使用ツール：HTML / CSS / JS / Photoshop / Visual Studio Code</span>
+                            </p>
+                            <ul class="tag-list">
+                                <li>Direction</li>
+                                <li>Design</li>
+                                <li>Coding</li>
+                                <li>SEO</li>
+                            </ul>
+                            <a href="https://touhakudaiko.cloudfree.jp/" target="_blank" rel="noopener noreferrer"
+                                class="link-btn">実際のサイトを見る &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Work 2: 畑英会話スクール (左右反転) -->
+                    <article class="work-item reverse">
+                        <div class="work-img">
+                            <div class="img-placeholder">
+                                <img src="img/work02.png" alt="畑英会話スクール PCモックアップ">
+                            </div>
+                        </div>
+                        <div class="work-content">
+                            <span class="badge">02. Group Work：コンペ採用・実運用案件</span>
+                            <h3 class="work-title">畑英会話スクール Webサイトリニューアル</h3>
+                            <p class="work-desc">
+                                納期6日、チームメンバー激減という絶望的な状況下で、生成AI（Google AI
+                                Studio）を大胆に導入。AIでベースを高速生成し、残りのリソースを細部の品質担保（SEO基礎設定やファビコン追加等）に全集中させることで納期内に完遂。4チームによるコンペで1位を獲得し、現在公式Webサイトとして実運用されています。<br>
+                                <span class="work-skil">使用ツール：HTML / CSS / JS / Photoshop / Visual Studio Code /
+                                    Figma</span>
+                            </p>
+                            <ul class="tag-list">
+                                <li>AI Utilization</li>
+                                <li>Design</li>
+                                <li>Coding</li>
+                                <li>SEO</li>
+                            </ul>
+                            <a href="https://www5f.biglobe.ne.jp/~kawagoe/index.html" target="_blank"
+                                rel="noopener noreferrer" class="link-btn">実際のサイトを見る &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Work 3: イベント企画LP -->
+                    <article class="work-item">
+                        <div class="work-img">
+                            <div class="img-placeholder">
+                                <img src="img/work03.png" alt="イベント企画LP PCモックアップ">
+                            </div>
+                        </div>
+                        <div class="work-content">
+                            <span class="badge">03. Group Work：マーケティング課題</span>
+                            <h3 class="work-title">イベント集客用LP（架空課題）</h3>
+                            <p class="work-desc">
+                                売上目標達成のためのマーケティング分析（3C,
+                                STP等）から参画。限られた納期の中で、国内シェアと検証コストを考慮しブレイクポイントをiPhoneに絞る合理的な判断を実施。Figmaを活用してデザイナーと密に連携し、実装者視点からのUI提案や、表示速度を最適化する「引き算の実装」を行いました。<br>
+                                <span class="work-skil">使用ツール：HTML / CSS / JS / Photoshop / Visual Studio Code /
+                                    Figma</span>
+                            </p>
+                            <ul class="tag-list">
+                                <li>Marketing</li>
+                                <li>Mobile First</li>
+                                <li>Coding</li>
+                            </ul>
+                            <a href="http://tadayoshiyoshida@s341.xrea.com/portfolio/brilliant-motion/index.html"
+                                target="_blank" rel="noopener noreferrer" class="link-btn">実際のサイトを見る &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Works Section -->
+        <section id="other" class="section other-works bg-gray">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Other Works</h2>
+                    <p class="section-subtitle">基礎スキルと表現の幅を示す課題・制作物</p>
+                </div>
+
+                <!-- タブナビゲーション -->
+                <ul class="tab-nav">
+                    <li><button class="tab-btn active" data-target="tab-web">Web課題 (4)</button></li>
+                    <li><button class="tab-btn" data-target="tab-banner">バナー (7)</button></li>
+                    <li><button class="tab-btn" data-target="tab-illust">イラスト (2)</button></li>
+                </ul>
+
+                <!-- タブコンテンツ：Web課題 -->
+                <div id="tab-web" class="tab-content active">
+                    <div class="grid-col2">
+                        <!-- ★ Web課題 1 -->
+                        <div class="card modal-open" data-title="基礎LP制作課題1 (Petshop) / Single Page"
+                            data-desc="課指示書を元にペットショップのサイトを制作。HTML / CSS / JavaScript / Photoshop を用いてデザインを考えコーディング。レスポンシブ対応済み。"
+                            data-tags="HTML / CSS / JavaScript / Photoshop" data-link="https://あなたのサイトURL.com/lp1"
+                            data-link-text="実際のサイトを見る &rarr;" data-img="img/web01.png">
+                            <!-- モーダルで開く大きな画像 -->
+                            <div class="card-img">
+                                <div class="img-placeholder">
+                                    <img src="img/web01.png" alt="基礎LP制作課題1 (Petshop)">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">基礎LP制作課題1 (Petshop)</h3>
+                                <span class="card-more">詳細を見る ＋</span>
+                            </div>
+                        </div>
+
+                        <!-- Web課題 2 -->
+                        <div class="card modal-open" data-title="基礎LP制作課題2 (Pickles) / Single Page"
+                            data-desc="指示書を元にピクルスショップのサイトを制作。HTML / JavaScript / CSS / Photoshop / Canva を用いてデザインを考えコーディング。ロゴの作成指示のもと、ロゴの制作。（※野菜をモチーフにしたロゴ）レスポンシブ対応済み。"
+                            data-tags="HTML / CSS / JavaScript / Photoshop / Canva" data-link="https://example.com"
+                            data-link-text="実際のサイトを見る &rarr;" data-img="img/web02.png">
+                            <div class="card-img">
+                                <div class="img-placeholder">
+                                    <img src="img/web02.png" alt="基礎LP制作課題2 (Pickles)">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">基礎LP制作課題2 (Pickles)</h3><span class="card-more">詳細を見る ＋</span>
+                            </div>
+                        </div>
+
+                        <!-- Web課題 3 -->
+                        <div class="card modal-open" data-title="基礎LP制作課題3 (Leading Company) / Multi-Page"
+                            data-desc="指示書を元に、HTML / JavaScript / CSS / Photoshop / Canva を用いてデザインを考え3ページ構成でコーディング。ロゴの作成指示のもと、ロゴの制作。レスポンシブ対応済み。"
+                            data-tags="HTML / CSS / JavaScript / Photoshop / Canva" data-link="https://example.com"
+                            data-link-text="実際のサイトを見る &rarr;" data-img="img/web03.png">
+                            <div class="card-img">
+                                <div class="img-placeholder">
+                                    <img src="img/web03.png" alt="基礎LP制作課題3 (Leading Company)">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">基礎LP制作課題3 (Leading Company)</h3><span class="card-more">詳細を見る
+                                    ＋</span>
+                            </div>
+                        </div>
+
+                        <!-- Web課題 4 -->
+                        <div class="card modal-open" data-title="基礎LP制作課題4 (Photo Studio) / Single Page / モバイルファースト"
+                            data-desc="指示書を元に、HTML / JavaScript / CSS / Photoshop を用いてデザインを考えコーディング。レイアウトはモバイルファーストで制作。レスポンシブ対応済み。"
+                            data-tags="HTML / CSS / JavaScript / Photoshop" data-link="https://example.com"
+                            data-link-text="実際のサイトを見る &rarr;" data-img="img/web04.png">
+                            <div class="card-img">
+                                <div class="img-placeholder">
+                                    <img src="img/web04.png" alt="基礎LP制作課題3 (Leading Company)">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">基礎LP制作課題4 (Photo Studio)</h3><span class="card-more">詳細を見る
+                                    ＋</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- タブコンテンツ：バナー -->
+                <div id="tab-banner" class="tab-content">
+                    <div class="grid-col3">
+                        <!-- ★ バナー課題 1 -->
+                        <div class="card card-square modal-open" data-title="父の日の贈り物"
+                            data-desc="・ターゲット：主婦・娘 ・目的：父の日のプレゼント選びに、百貨店の特設会場へ足を運んでもらうこと。 ・工夫した点：爽やかな水色をベースに、プレゼントの箱やヒゲのアイコンを使って親しみやすい雰囲気にしました。3つの異なるサイズで作成しましたが、どのサイズでも「6月第3日曜日」という重要な情報が一番に目に飛び込んでくるように文字の配置を工夫しています。"
+                            data-tags="Photoshop / Canva" data-link-text="バナーを見る &rarr;" data-img="img/banner1-10.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner1-10.png" alt="バナー1"></div>
+                            </div>
+                        </div>
+
+                        <div class="card card-square modal-open" data-title="マネマネカード"
+                            data-desc="・ターゲット：20歳以上の働いている方、海外旅行を計画している方 ・目的：海外旅行に便利なプリペイドカード「マネマネカード」の認知拡大と申し込み促進。 ・工夫した点：ターゲットに「このカードを持って旅行に行きたい」と直感的に思ってもらえるよう、楽しそうな海外旅行の写真を背景に大きく使用しました。写真のインパクトに負けないよう、キャッチコピーにはドロップシャドウや縁取りをつけて視認性を高めています。"
+                            data-tags="Photoshop / Canva" data-link-text="バナーを見る &rarr;" data-img="img/banner2-10.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner2-10.png" alt="バナー2"></div>
+                            </div>
+                        </div>
+                        <div class="card card-square modal-open" data-title="マネマネカード"
+                            data-desc="・ターゲット：20歳以上の働いている方、海外旅行を計画している方 ・目的：海外旅行に便利なプリペイドカード「マネマネカード」の認知拡大と申し込み促進。 ・工夫した点：カードの「機能性」や「安心感（使いすぎ防止など）」がしっかり伝わるよう、背景はあえてシンプルで清潔感のあるデザインにしました。文字情報が多いので、重要なキーワード（オトク、6つの通貨など）がパッと目に入るように文字のサイズや色でメリハリをつけています。"
+                            data-tags="Photoshop / Canva" data-link-text="バナーを見る &rarr;" data-img="img/banner2-20.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner2-20.png" alt="バナー3"></div>
+                            </div>
+                        </div>
+                        <div class="card card-square modal-open" data-title="えきえきアンブレラ"
+                            data-desc="・ターゲット：駅を利用する方、バーコード決済を利用する方 ・目的：駅の傘レンタルサービス「えきえきアンブレラ」の認知と利用促進。 ・工夫した点：雨の日に急いでいる駅の利用者がターゲットなので、パッと見てサービス内容が伝わることを最優先にしました。イラストを使って直感的に傘のレンタルだと分かるようにし、一番重要な「駅でレンタル・返却」「120円」という文字を大きく目立たせています。"
+                            data-tags="Photoshop / Canva" data-link-text="バナーを見る &rarr;" data-img="img/banner3-10.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner3-10.png" alt="バナー4"></div>
+                            </div>
+                        </div>
+                        <div class="card card-square modal-open" data-title="えきえきアンブレラ"
+                            data-desc="・ターゲット：駅を利用する方、バーコード決済を利用する方 ・目的：駅の傘レンタルサービス「えきえきアンブレラ」の認知と利用促進。 ・工夫した点：実際の雨の日の写真を使用し、「急な雨で傘が必要なシチュエーション」を直感的にイメージしてもらえるようにしました。写真の上に文字を載せるため、文字に白フチや光彩をつけて、背景に埋もれずしっかり読めるように工夫しています。"
+                            data-tags="Photoshop / Canva" data-link-text="バナーを見る &rarr;" data-img="img/banner3-20.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner3-20.png" alt="バナー5"></div>
+                            </div>
+                        </div>
+                        <div class="card card-square modal-open" data-title="本城クリニック 若返り治療（アンチエイジング）"
+                            data-desc="・ターゲット：30代後半〜50代の、年齢肌に悩む女性 ・目的：若返り治療の認知拡大と、無料カウンセリングへの誘導。 ・工夫した点：訴求軸を変えて2パターン作成しました。上部は「若見え」「小顔」など具体的な効果をボタン風に配置し、幅広い悩みに対応できることをアピール。下部は顔のアップ写真で高級感を出し、「しわ」「たるみ」など悩み別のクリック導線を設けることで、より深い悩みを抱える層に刺さるように設計しています。"
+                            data-tags="Photoshop" data-link-text="バナーを見る &rarr;" data-img="img/banner4-10.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner4-10.png" alt="バナー6"></div>
+                            </div>
+                        </div>
+                        <div class="card card-square modal-open" data-title="本城クリニック 医療レーザー脱毛"
+                            data-desc="・ターゲット：20代〜30代の、医療脱毛を検討している女性 ・目的：医療レーザー脱毛の認知拡大と、カウンセリング予約の獲得。 ・工夫した点：2パターンのデザインを作成しました。上部はピンクを基調とした華やかなデザインで、新メニューの部位と回数を明記し、具体的なプランを探している層へアピール。下部は青空の背景で爽やかさを出し、「1・3・5回と選べる」という手軽さを強調することで、医療脱毛初心者にも響くように設計しています。"
+                            data-tags="Photoshop" data-link-text="バナーを見る &rarr;" data-img="img/banner4-20.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/banner4-20.png" alt="バナー7"></div>
+                            </div>
+                        </div>
+                        <!-- 残りのバナーも同様に追加 -->
+                    </div>
+                </div>
+
+                <!-- タブコンテンツ：イラスト -->
+                <div id="tab-illust" class="tab-content">
+                    <div class="grid-col4">
+                        <!-- ★ イラスト課題 1 -->
+                        <div class="card card-square modal-open" data-title="オリジナルLINEスタンプ（クマのぬいぐるみ）"
+                            data-desc="・ターゲット：友人や同僚との日常的なLINEのやり取りで、感情を可愛く伝えたい方 ・目的：Illustratorを用いたキャラクターデザインと、バリエーション展開のスキル証明。 ・工夫した点：日常会話で使いやすいよう、喜怒哀楽の感情表現や挨拶を網羅した12パターンのスタンプを作成しました。茶色と白の2匹のキャラクターを組み合わせることで、単調にならず、メッセージのやり取りにストーリー性が生まれるように工夫しています。"
+                            data-tags="Illustrator" data-img="img/stamp1.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/stamp1.png" alt="オリジナルLine Stamp"></div>
+                            </div>
+                        </div>
+
+                        <div class="card card-square modal-open" data-title="お正月用 LINEスタンプ風イラスト（午年）"
+                            data-desc="・ターゲット：友人や家族に、気軽にお正月の挨拶を送りたい方 ・目的：Illustratorを用いたキャラクターデザインと、文字装飾のスキル証明。 ・工夫した点：新年の挨拶として使いやすいよう、明るくポップな色使いと親しみやすい馬のキャラクターをデザインしました。スマホの小さな画面でも文字が読みやすいように、文字にフチをつけたり、アーチ状に配置したりして視認性を高めています。"
+                            data-tags="Illustrator" data-img="img/stamp2.png">
+                            <div class="card-img">
+                                <div class="img-placeholder"><img src="img/stamp2.png" alt="オリジナルLine Stamp"></div>
+                            </div>
+                        </div>
+                        <!-- 残りのイラストも同様に追加 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container container-small">
+                <div class="section-header">
+                    <h2 class="section-title">About Me & Skills</h2>
+                    <p class="section-subtitle">プロフィールとスキルセット</p>
+                </div>
+                <div class="about-box">
+                    <h4 class="about-title">「作る」ことと「進める」こと。状況に合わせて臨機応変に動ける制作者を目指して。</h4>
+                    <p class="about-text">
+                        前職のWeb制作会社では、デザイナーとしてWebサイトの新規制作やECサイトのバナー・商品画像作成を行うと同時に、ディレクターとしてクライアントとの打ち合わせやスケジュールの進行管理も担当していました。また、ECサイトの売上・在庫管理からお客様の電話・メール対応まで、Web制作と運用に関わる幅広い業務を経験しました。<br>
+                        その後、一身上の都合によりWeb業界から離れていた期間がありました。しかし、「もう一度この業界で本気で働きたい」という強い思いから、直近の6ヶ月間、職業訓練校に通い、Figmaなどのデザインツールや現在のコーディング手法を基礎からしっかりと学び直しました。<br>
+                        訓練校に通っている間も、ただ授業を受けるだけでなく、個人で実際のクライアントからWebサイトの新規制作（東柏太鼓教室様）を受注したり、グループワークでAIツールを活用して厳しい納期内にサイトを完成させたりと、常に「実務」を意識して手を動かし続けてきました。<br>
+                        私の強みは、デザインやコーディングといった「作る」スキルと、前職で培った進行管理やクライアント対応といった「進める」スキルの両方を持っていることだと思っています。<bt>
+                            入社後は、「デザイナーだから」「コーダーだから」とポジションを限定するのではなく、デザイン、実装、そしてディレクションまで、その時々のチームの状況やプロジェクトに合わせて、臨機応変に動ける制作者として役に立ちたいと考えています。<br>
+
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Tadayoshi Yoshida. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ★ Modal Window (画像とリンクの切り替えに対応) ★ -->
+    <div id="modal" class="modal">
+        <div class="modal-bg modal-close"></div>
+        <div class="modal-content">
+            <button class="modal-close-btn modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-img">
+                    <!-- プレースホルダーを消し、imgタグを配置 -->
+                    <img id="modal-image" src="" alt="作品画像">
+                </div>
+                <h3 id="modal-title" class="modal-title">作品タイトル</h3>
+                <p id="modal-desc" class="modal-desc">ここに課題の条件や、制作の目的、工夫した点などの詳細テキストが入ります。</p>
+
+                <!-- タグとリンクボタンを横並びにする枠 -->
+                <div class="modal-footer">
+                    <span id="modal-tags" class="modal-tags">使用ツール</span>
+                    <a href="#" id="modal-link" class="link-btn" target="_blank" rel="noopener noreferrer">実際のサイトを見る
+                        &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ★ JavaScript ★ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- ハンバーガーメニュー処理 ---
+            const hamburger = document.getElementById('js-hamburger');
+            const nav = document.getElementById('js-nav');
+            const navLinks = nav.querySelectorAll('a');
+
+            // ハンバーガーボタンをクリックした時の処理（開閉）
+            hamburger.addEventListener('click', function () {
+                hamburger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+
+                // メニューが開いている時は背景のスクロールを止める
+                if (nav.classList.contains('is-active')) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // ★修正：メニュー内のリンクをクリックした時にメニューを閉じる処理
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    // is-active クラスを外してメニューを閉じる
+                    hamburger.classList.remove('is-active');
+                    nav.classList.remove('is-active');
+                    // スクロール防止を解除する
+                    document.body.style.overflow = '';
+                });
+            });
+
+            // --- タブ切り替え処理 ---
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
+
+                    btn.classList.add('active');
+                    const targetId = btn.getAttribute('data-target');
+                    document.getElementById(targetId).classList.add('active');
+                });
+            });
+
+            // --- モーダル処理（画像とリンクの切り替え） ---
+            const modal = document.getElementById('modal');
+            const modalOpenBtns = document.querySelectorAll('.modal-open');
+            const modalCloseBtns = document.querySelectorAll('.modal-close');
+
+            // モーダル内の書き換える要素を取得
+            const modalTitle = document.getElementById('modal-title');
+            const modalDesc = document.getElementById('modal-desc');
+            const modalTags = document.getElementById('modal-tags');
+            const modalLink = document.getElementById('modal-link');
+            const modalImage = document.getElementById('modal-image');
+
+            // モーダルを開く時の処理
+            modalOpenBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    // 1. テキストデータの書き換え
+                    modalTitle.textContent = this.getAttribute('data-title');
+                    modalDesc.textContent = this.getAttribute('data-desc');
+                    modalTags.textContent = this.getAttribute('data-tags');
+
+                    // 2. 画像データの書き換え
+                    const imgSrc = this.getAttribute('data-img');
+                    if (imgSrc) {
+                        modalImage.src = imgSrc;
+                        modalImage.style.display = 'block';
+                    } else {
+                        modalImage.style.display = 'none';
+                    }
+
+                    // 3. リンクデータの書き換え
+                    const linkUrl = this.getAttribute('data-link');
+                    // data-link-textが設定されていればそれを使い、なければデフォルトの文言にする
+                    const linkText = this.getAttribute('data-link-text') || '実際のサイトを見る &rarr;';
+
+                    if (linkUrl) {
+                        modalLink.href = linkUrl;
+                        modalLink.innerHTML = linkText; // ★追加：ボタンの文言を書き換える
+                        modalLink.style.display = 'inline-block'; // リンクがあれば表示
+                    } else {
+                        modalLink.style.display = 'none'; // リンクがなければ隠す
+                    }
+
+                    // モーダルを表示
+                    modal.classList.add('show');
+                    document.body.style.overflow = 'hidden'; // 背景のスクロール防止
+                });
+            });
+
+            // モーダルを閉じる時の処理
+            modalCloseBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    modal.classList.remove('show');
+                    document.body.style.overflow = ''; // スクロール防止解除
+
+                    // 閉じる時に画像をリセット（一瞬前の画像が見えるのを防ぐ）
+                    setTimeout(() => {
+                        modalImage.src = '';
+                    }, 300);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
