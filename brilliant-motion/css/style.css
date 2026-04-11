@@ -398,6 +398,9 @@ nav a:hover {
     margin-top: 5rem;
     text-align: center;
 }
+.center-btn .img-button {
+    width: auto;
+}
 
 /* アコーディオン */
 .accordion-song {
