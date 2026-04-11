@@ -398,7 +398,7 @@ nav a:hover {
     margin-top: 5rem;
     text-align: center;
 }
-.center-btn .img-button {
+.center-btn a.img-button {
     width: auto;
 }
 
