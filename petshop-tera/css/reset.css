@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*reset*/
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: bottom;
+  border: none;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;/*10px*/
+  color: #333;
+  scroll-padding-top: 120px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  /* background: #eed5c0; */
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+/*reset*/
