@@ -29,7 +29,7 @@ $(function () {
     
     // ヘッダーの高さ分ずらす設定
     // PC(>820px)なら183px、スマホ(<=820px)なら固定ヘッダー分の70px
-    var headerHeight = $(window).width() > 820 ? 183 : 70; 
+    var headerHeight = $(window).width() > 820 ? 140 : 70; 
 
     if (target.length) {
       $('html, body').animate({
