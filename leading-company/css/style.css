@@ -394,7 +394,7 @@ footer {
   background: #eee;
 }
 .footer-link {
-  width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 50px;
   background: #fff;
