@@ -441,6 +441,10 @@ footer p {
         bottom: 10px;
         right: 10px;
     }
-
-    
+}
+/* sp 520px */
+@media (max-width: 520px) {
+    #ranking .rank4 img {
+        object-position: bottom left;
+    }
 }
