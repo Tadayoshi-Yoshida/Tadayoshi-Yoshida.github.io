@@ -1,7 +1,7 @@
 $(function() {
     // slick
     $(".main_img").slick({
-        autoplay: true,
+        autoplay: false,
         arrows: false,
         pauiseOnFocus: false,
         pauseOnHover: false,
