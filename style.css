@@ -213,7 +213,8 @@ button {
     }
 
     .global-nav ul {
-        flex-direction: row-reverse; /* 横並びにする */
+        flex-direction: row;
+        justify-content: flex-end;
         gap: 24px;
     }
 
