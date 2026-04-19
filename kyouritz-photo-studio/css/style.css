@@ -52,7 +52,6 @@ body.is-scrolled .main_img {
   position: var(--relative);
 }
 
-/* ★ 新規追加: スクロールするコンテンツエリア */
 .scroll-container {
   flex: 1;
   height: 100vh;
@@ -153,10 +152,6 @@ header {
   color: var(--main-color);
 }
 
-/* .nav_wrap li:nth-child(1) {
-  width: 50%;
-} */
-
 main {
   max-width: var(--max-width);
   width: var(--width);
@@ -250,7 +245,6 @@ h3 {
   padding-bottom: 3rem;
   display: var(--flex);
   justify-content: space-between;
-  /* flex-wrap: wrap;  */
 }
 
 .news_container .news_wrap figure {
@@ -618,6 +612,7 @@ footer .logo a {
 
 footer .logo img {
   width: 100px;
+  padding-right: 1rem;
   vertical-align: middle;
 }
 
