@@ -20,6 +20,30 @@ $(function() {
 	});
 });
 
+// ページリロード
+$(function() {
+  // 1. ブレイクポイントの設定（CSSのメディアクエリに合わせて 940 に設定）
+  const breakpoint = 639;
+  
+  // 2. ページ読み込み時の画面がモバイルサイズ（940px以下）かどうかを判定して保存
+  let isMobile = $(window).width() <= breakpoint;
+  let resizeTimer;
+
+  $(window).on('resize', function() {
+    clearTimeout(resizeTimer);
+
+    resizeTimer = setTimeout(function() {
+      // リサイズ後の画面がモバイルサイズかどうかを再度判定
+      let currentIsMobile = $(window).width() <= breakpoint;
+
+      // 3. PCサイズ⇔スマホサイズ の境界線をまたいだ時だけリロードする
+      if (isMobile !== currentIsMobile) {
+        window.location.reload();
+      }
+    }, 200);
+  });
+});
+
 // 画像切り替え
 $(window).on('load resize', function(){
   var width = $(window).width();
