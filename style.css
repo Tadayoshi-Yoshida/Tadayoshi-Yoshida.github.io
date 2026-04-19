@@ -619,6 +619,7 @@ button {
     font-size: 14px;
     color: var(--color-text-light);
     margin-bottom: 16px;
+    white-space: pre-wrap;
 }
 
 /* ★ モーダル下部のレイアウト（タグとリンクボタン） */
