@@ -459,7 +459,7 @@ button {
 }
 
 @media (min-width: 768px) {
-    .grid-col4 { grid-template-columns: repeat(5, 1fr); }
+    .grid-col4 { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* Card */
