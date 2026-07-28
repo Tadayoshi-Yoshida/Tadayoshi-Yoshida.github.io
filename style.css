@@ -455,11 +455,11 @@ button {
 @media (min-width: 640px) {
     .grid-col2 { grid-template-columns: repeat(2, 1fr); }
     .grid-col3 { grid-template-columns: repeat(3, 1fr); }
-    .grid-col4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-col4 { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (min-width: 768px) {
-    .grid-col4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-col4 { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* Card */
