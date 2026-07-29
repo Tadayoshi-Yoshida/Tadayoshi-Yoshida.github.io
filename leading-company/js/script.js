@@ -159,7 +159,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
   // 15個の円を作成
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < 10; i++) {
     blobs.push(new Blob());
   }
 }
@@ -192,7 +192,7 @@ class Blob {
     // 色をパレットからランダムに決定
     this.color = color(random(colors));
     // 透明度を下げて重なりを綺麗に見せる
-    this.color.setAlpha(80); 
+    this.color.setAlpha(40); 
   }
   update() {
     // noise() を使って有機的な動きを作る
