@@ -821,8 +821,8 @@ footer .logo img {
     object-fit: contain;
     object-position: -110px center;
   }
-  .clothes_wrap figure img[src*="img/image01.PNG"] {
-    object-fit: contain;
+  .clothes_wrap figure img[src*="img/image01.png"] {
+    object-fit: cover;
     object-position: 75px center;
   }
   .main-logo {
