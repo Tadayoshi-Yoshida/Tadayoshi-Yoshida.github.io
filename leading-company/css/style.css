@@ -286,7 +286,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
 }
  #employee-wrap a {
   width: calc(((1000px - 20px) / 2) - 20px);
@@ -441,14 +441,14 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 100;
 /* 【変更点2】キャンバスを通して下のリンクやボタンをクリックできるようにする（必須） */
   pointer-events: none; 
 /* 既存のデザイン調整 */
   filter: blur(60px); 
   transform: scale(1.2); 
 /* 【オプション】文字が読みづらい場合はブレンドモードを試してください */
-/* mix-blend-mode: overlay; */ 
+  mix-blend-mode: multiply; 
 /* または multiply, screen など */
 }
 
@@ -639,14 +639,17 @@ canvas {
     padding: 0px 10px 50px;
   }
   #whats-new {
-    padding: 5rem 1rem;
+    padding: 10rem 2rem;
   }
   .content {
-    padding: 100px 10px;
+    padding: 10rem 2rem;
     box-sizing: border-box;
   }
   .business-container li {
       width: calc((100% / 2) - 2rem);
+  }
+  .company-link {
+    padding: 0 0 5rem;
   }
   #company .company-txt {
       top: -95px;
@@ -676,7 +679,7 @@ canvas {
     line-height: 1;
   }
   #employee-wrap {
-    padding: 100px 10px;
+    padding: 10rem 2rem;
     background: #fff;
   }
   #employee-wrap .main-wrap {
@@ -744,6 +747,9 @@ canvas {
   h2.shadow {
     text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
   }
+  #whats-new  {
+    padding: 7rem 2rem;
+  }
   .business-container {
     margin-bottom: 3rem;
   }
@@ -754,6 +760,9 @@ canvas {
   .business-container li {
     width: 100%;
     padding: 0 1rem 3rem;
+  }  
+  #company {
+    padding: 7rem 2rem;
   }
   #company .text {
     display: block;
@@ -762,8 +771,17 @@ canvas {
   .company-wrap p {
     padding: 0 0 3rem 0;
   }
+  #employee-wrap {
+    padding: 7rem 2rem;
+  }
+  #inquiry {
+    padding: 7rem 2rem;
+  }
   #inquiry li:nth-child(1) {
     line-height: 2;
+  }
+  #access {
+    padding: 7rem 2rem;
   }
   .access-txt {
     padding: 0;
@@ -774,6 +792,13 @@ canvas {
   }
   .access-wrap figure {
     padding: 0;
+  }
+}
+
+/* ブレイクポイント375px */
+@media screen and (max-width: 375px) {
+  #whats-new {
+    padding: 4rem 2rem;
   }
 }
 
@@ -1153,6 +1178,7 @@ h2 .spanborder {
 @media screen and (max-width: 430px) {
   .header-box {
     padding: 10px 20px 10px;
+    top: 0;
   }
   nav {
     width: 60%;
