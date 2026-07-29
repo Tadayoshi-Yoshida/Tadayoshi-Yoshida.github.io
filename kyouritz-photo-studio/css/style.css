@@ -817,13 +817,20 @@ footer .logo img {
   .news_container .news_wrap p {
     width: calc((100% / 2) - 20px);
   }
+  /* .clothes_wrap {
+    height: 350px; 
+  } */
+  .clothes_wrap figure img[src*="img/wedding-dress-g3cdbdb13e_1280.jpg"] {
+    object-fit: cover;
+    object-position: center 20%; 
+  }
   .clothes_wrap figure img[src*="img/3471812_s.jpg"] {
-    object-fit: contain;
+    object-fit: cover;
     object-position: -110px center;
   }
   .clothes_wrap figure img[src*="img/image01.png"] {
     object-fit: cover;
-    object-position: 75px center;
+    object-position: center 10%;
   }
   .main-logo {
     width: 12.5%;
@@ -833,7 +840,7 @@ footer .logo img {
 /* --- 500px以下 --- */
 @media screen and (max-width: 500px) {
   .clothes_wrap figure img[src*="img/3471812_s.jpg"] {
-    object-fit: contain;
+    object-fit: cover;
     object-position: -150px center;
   }
   .plan .content_box {
