@@ -800,6 +800,9 @@ canvas {
   #whats-new {
     padding: 4rem 2rem;
   }
+  #whats-new li {
+    line-height: 1.6;
+  }
 }
 
 /*************************************
