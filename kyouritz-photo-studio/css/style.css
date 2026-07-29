@@ -817,12 +817,9 @@ footer .logo img {
   .news_container .news_wrap p {
     width: calc((100% / 2) - 20px);
   }
-  .clothes_wrap {
-    height: 350px; 
-  }
   .clothes_wrap figure img[src*="img/wedding-dress-g3cdbdb13e_1280.jpg"] {
     object-fit: cover;
-    object-position: center 20%; 
+    object-position: center 50%; 
   }
   .clothes_wrap figure img[src*="img/3471812_s.jpg"] {
     object-fit: cover;
@@ -830,7 +827,7 @@ footer .logo img {
   }
   .clothes_wrap figure img[src*="img/clothes03.png"] {
     object-fit: cover;
-    object-position: center 10%;
+    object-position: 75px center;
   }
   .main-logo {
     width: 12.5%;
