@@ -827,8 +827,7 @@ footer .logo img {
   }
   .clothes_wrap figure img[src*="img/image01.png"] {
     object-fit: cover;
-    object-position: center 10%;
-    width: 60%;
+    object-position: 75px center;
   }
   .main-logo {
     width: 12.5%;
